@@ -31,9 +31,7 @@ namespace StartGame.Properties {
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-
-        public static string Noise { get; internal set; }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -65,19 +63,9 @@ namespace StartGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream Error {
+        internal static System.IO.UnmanagedMemoryStream terrain_warning {
             get {
-                return ResourceManager.GetStream("Error", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap skull_1f480__1_ {
-            get {
-                object obj = ResourceManager.GetObject("skull_1f480 (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetStream("terrain_warning", resourceCulture);
             }
         }
     }

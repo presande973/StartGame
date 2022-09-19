@@ -107,5 +107,11 @@
   <ItemGroup>
     <None Include="Resources\Noise" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skull_1f480 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terrain-warning.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
